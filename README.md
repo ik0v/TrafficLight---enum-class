@@ -9,14 +9,13 @@ red (true)
 yellow (false)
 green (false)
 
-line 43: TrafficLight.setOn("yellow");
+***
 
-red (false)
-yellow (true)
-green (false)
+second commit:
 
-line 45: TrafficLight.setOn("green");
+Simple control of input word is added.
+Method 	
+private static TrafficLight checkColor(String colorName)
+checks if a passed parameter is valid, and asks to type colorName again if not.
 
-red (false)
-yellow (false)
-green (true)
+Exception handling is used for that. 
